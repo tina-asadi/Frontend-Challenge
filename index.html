@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Juice Bar — Landing Slider</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Juice<span>Bar</span></div>
+    <nav class="site-nav" role="navigation" aria-label="Main">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="slider" role="region" aria-label="Juice slider">
+    <!-- Left Content -->
+    <section class="slider-text">
+      <h2 id="caption">Orange Sunshine</h2>
+      <h3 class="subtitle">Freshness in Every Sip</h3>
+      <p class="tagline">
+        Experience the vibrant taste of nature with our freshly squeezed, all-natural fruit juices.
+      </p>
+
+      <!-- Thumbs + arrows -->
+      <div class="thumbs-nav">
+        <button class="nav-arrow" id="prev" aria-label="Previous slide">&#10094;</button>
+        <div class="thumbs" id="thumbs" role="tablist"></div>
+        <button class="nav-arrow" id="next" aria-label="Next slide">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Right Visual -->
+    <section class="slider-visual">
+      <a id="slideLink" target="_blank" rel="noopener" aria-label="Juice bottle link">
+        <div class="circle"></div>
+        <img id="bottle" class="bottle" src="images/bottle-1.png" alt="Juice Bottle" />
+      </a>
+      <div id="fruitsGroup"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
