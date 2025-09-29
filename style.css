@@ -147,7 +147,7 @@ body {
 
 #fruitsGroup img {
   position: absolute;
-  z-index: 1; /* behind bottle */
+  z-index: 1; 
   filter: blur(1.2px);
   opacity: 0.95;
   transition: opacity 0.8s ease, transform 0.8s ease;
@@ -158,13 +158,21 @@ body {
   .slider {
     flex-direction: column;
     text-align: center;
-  }
+}
 
-  .slider-text { max-width: 100%; }
+  .slider-text { 
+    max-width: 100%; 
+}
 
-  .slider-visual { margin-top: 2rem; }
+  .slider-visual { 
+    margin-top: 2rem; 
+}
 
-  .circle { width: 320px; height: 320px; }
+  .circle { 
+    width: 320px; height: 320px; 
+}
 
-  .bottle { max-height: 300px; }
+  .bottle { 
+    max-height: 300px; 
+}
 }

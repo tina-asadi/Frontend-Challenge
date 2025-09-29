@@ -130,7 +130,7 @@ if (nextBtn) {
   });
 }
 
-// Optional: keyboard navigation for accessibility
+//keyboard navigation for accessibility
 document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') {
     current = (current - 1 + slides.length) % slides.length;
