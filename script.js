@@ -73,8 +73,12 @@ function showSlide(i) {
   const slide = slides[i];
 
   // fade transition
+  // bottle.style.opacity = 0;
+  // fruitsGroup.style.opacity = 0;
   bottle.style.opacity = 0;
+  bottle.style.transform = "scale(0.97)";
   fruitsGroup.style.opacity = 0;
+
 
   setTimeout(() => {
     bottle.src = slide.image;
